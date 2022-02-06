@@ -1,0 +1,39 @@
+{
+    "name": "Axesteroid",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-background-scroll": "github:microsoft/arcade-background-scroll#926e12eefffd09d453c7cde73f8d6ebd0e666d9d",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.1",
+        "darts": "*",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "sevenseg": "*",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "pxt-rtttl": "github:pelikhan/pxt-rtttl#v0.0.11",
+        "Songs": "github:LucasMayhew/RPGMuisic#f26c7df84609da0be7af7e16d2a64dcd095c1716",
+        "FastRandomBlocks": "github:UnsignedArduino/Fast-Random-Blocks#8c985a77e5c4278e43a7bc375db095c67afb58ed"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.7.24",
+        "tag": "v1.7.24",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/e7bd2e723209fb725f6274543dab7aa940537364",
+        "target": "1.7.24",
+        "pxt": "7.3.26",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
